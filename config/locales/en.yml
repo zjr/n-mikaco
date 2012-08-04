@@ -3,3 +3,4 @@
 
 en:
   hello: "Hello world"
+  shop_by_taxonomy: "Shop %{taxonomy}"
