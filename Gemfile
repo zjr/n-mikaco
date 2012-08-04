@@ -41,3 +41,13 @@ gem 'spree_usa_epay'
 gem 'spree_skrill'
 gem 'spree_static_content', :git => 'git@github.com:spree/spree_static_content.git', :branch => '1-1-stable'
 
+group :production do
+  gem 'unicorn'
+  gem 'mysql2'
+  gem 'foreman'
+  gem 'therubyracer' #only required for 0.70.x or later
+end
+ 
+group :development do
+  gem 'capistrano'
+end
