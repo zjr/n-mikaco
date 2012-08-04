@@ -39,3 +39,5 @@ gem 'jquery-rails'
 gem 'spree', '1.1.3'
 gem 'spree_usa_epay'
 gem 'spree_skrill'
+gem 'spree_static_content', :git => 'git@github.com:spree/spree_static_content.git', :branch => '1-1-stable'
+
