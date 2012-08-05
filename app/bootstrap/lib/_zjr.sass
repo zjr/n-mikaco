@@ -1,469 +1,51 @@
-*
-	box-sizing: border-box
-h5, h6
-	font-family: $EdmondB, Helvetica, Arial, sans-serif
-html, body
-	height: 100%
+body
+	font-family: $EdmondM
+	
+h1, h2, h3, h4, h5, h6
+	font-family: $League
+	font-weight: normal
 
-.container-fpush
-	min-height: 100%
-	height: auto !important
-	height: 100%
-	margin: 0 auto -4em
-.footer, .fpush
-	height: 4em
-.footer
-	background: #232323
-.down40
-	position: relative
-	top: 40px
-.under20
-	margin-bottom: 20px
-.above18
-	margin-top: 20px
-.above85
-	padding-top: 85px
-
-.navbar .brand
-	margin-left: 0
-	padding: 0
-	h2
-		font-size: 36px
-		line-height: 38px
-		color: $purple
-		text-shadow: 0 -1px 0px black
-		transition: color 0.2s linear
-		span
-			font-size: 38px
-			position: relative
-			top: 1px
-		&:hover
-			color: lighten($purple, 5%)
-.navbar
-	li
-		a
-			transition: color 0.2s linear
-		a i
-			transition: opacity 0.2s linear
-			opacity: 0.8
-		&:hover > a i
-			opacity: 1
-		&.active > a i
-			opacity: 1
-	li.no-link
-		padding: 9px 10px 11px
-		color: #999
-		a
-			color: saturate(lighten($purple, 10%), 30%)
-			transition: color 0.2s linear
-			&:hover
-				text-decoration: none
-				color: saturate(lighten($purple, 20%), 40%)
-			span
-				color: $grayLight
-#menu-main-wish a
-	margin-right: 12px
-#menu-main-cart a
-	background: rgba(122, 43, 182, 0.4)
-	padding: 9px 13px 11px
-.login-form
-	padding: 14px 12px
-	width: 250px
-	background: #232323
-	border-color: #181818
-	form
-		margin: 0 0 9px
-	legend
-		text-align: center
-		margin-bottom: 0
-		line-height: 40px
-		& + .control-group
-			margin: 6px auto 0
-	.control-contain
-		float: none
-	.control-group
-		float: left
-		margin-bottom: 0
-	input
-		height: 24px
-	.btn
-		box-sizing: content-box
-		margin: 0 0 0 10px
-		width: 42px
-		height: 47px
-		float: none
-	a
-		display: block
-		clear: none
-		padding: 0
-		&:nth-child(3)
-			width: 95px
-			float: left
-			text-align: left
-			margin-left: 8px
-		&:last-child
-			width: 41px
-			float: right
-			text-align: right
-			margin-right: 12px
-	// extra class to overcome specificity
-	&#black-login-form
-		right: 27px
-		top: 36px
-		&:before
-			top: -10px
-			right: 162px
-			border-left-width: 10px
-			border-right-width: 10px
-			border-bottom: 10px solid #181818
-		&:after
-			top: -9px
-			right: 163px
-			border-left-width: 9px
-			border-right-width: 9px
-			border-bottom: 9px solid #232323
-
-.subnav-fixed .nav
-	width: 940px
-	padding: 0
-	li.shopping-tab
-		line-height: 45px
-		padding: 0px 15px
-		&.has-link
-			padding: 0
-		a
-			padding: 15px
-			&:hover
-				padding: 15px
-	.divider-vertical
-		width: 2px
-		height: 44px
-		background: #ccc
-		margin-left: 15px
-		border-left: 1px solid #fff
-	.myAccount
-		position: relative
-		.dropdown-menu
-			border-color: #000
-			width: 99px
-			min-width: 99px
-			top: 43px
-			ul
-				list-style: none
-				margin: 0
-				li a
-					padding: 10px
-					text-align: center
-			&:before, &:after
-				content: ""
-				width: 0
-				height: 0				
-				display: block
-				position: relative
-				left: 50%
-			&:before
-				top: -15px
-				margin-left: -10px
-				border-left: 10px solid transparent
-				border-right: 10px solid transparent
-				border-bottom: 10px solid #000
-				z-index: 100
-			&:after
-				top: -193px
-				margin-left: -9px
-				border-left: 9px solid transparent
-				border-right: 9px solid transparent
-				border-bottom: 9px solid #fff
-				z-index: 200
-			.divider
-				border: none
-				height: 1px
-				&:first-child
-					margin: 8px 0 0
-				&:last-child
-					margin: 0 0 8px
-		
-.nav-tabs .open .dropdown-toggle, .nav-pills .open .dropdown-toggle, .nav > li.dropdown.open.active > a:hover
-	color: $white
-	background: #333
-	border-color: $black
-
-.form-search
-	margin-top: 8px
-	input.search-query
-		height: 28px
-		background: $white
-		border: 1px solid #ccc
-		box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05)
-		&:focus
-			border-color: rgba(122, 43, 182, 0.5)
-			box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 0 6px 0px rgba(122, 43, 182, 0.3)
-	.btn
-		font-family: $Entypo
-		font-size: 32px
-		padding: 5px 7px 12px
-		line-height: 9px
-		color: #555
-
-.divider-vertical.no-left
-	margin-left: 0
-
-.upper-header
-	color: #333
+nav#taxonomies .taxonomy-root,
+#sidebar_products_search .filter-title
+	font-weight: normal
 	font-size: 24px
-	text-align: center
+	line-height: 28px
 
-.carousel-container
-	margin-left: 0
-	margin-top: 20px
-	position: relative
-	&.down40
-		margin-top: 0px
-.carousel .item > img
-	margin: auto
-.carousel-nav
-	position: absolute
-	z-index: 1
-	bottom: 0
-	width: 100%
-	ul
-		width: 940px
-		height: 10px
-		margin: auto
-		list-style: none
-		li
-			float: left
-			width: 300px
-			height: 10px
-			a
-				width: 300px
-				display: block
-				height: 10px
-				background: #ccc
-				transition: 0.4s background
-				&.active
-					background: $purple
-				&:hover
-					text-decoration: none
-			& + li
-				margin-left: 20px
+// Change the bottom borders
+nav #main-nav-bar,
+nav#taxonomies .taxonomy-root,
+nav #main-nav-bar li#link-to-cart:hover .amount,
+nav #main-nav-bar li#link-to-cart a .amount,
+nav #main-nav-bar li#link-to-cart a:hover .amount,
+#sidebar_products_search .filter-title,
+ul#products li a.info,
+footer#footer
+	border-color: #000
 
+nav #main-nav-bar li#link-to-cart
+	margin-top: 1px
+	background-image: none
+	// &:before
+	// 	content: "I"
+	// 	font-family: $Entypo
+	// 	font-size: 42px
+	// 	font-weight: normal
+	// 	position: absolute
+	// 	right: 170px
+	// 	top: 137px
+	// 	color: #a0a
 
-.callout
-	height: 40px
-	border-bottom: 1px dashed #333
-	& h5
-		font-size: 13px
-		line-height: 40px
-		text-align: center
+ul#products li .product-image,
+#product-images
+	box-sizing: border-box
+	border: 3px solid #000
 
-.f-link-container
-	position: relative
-	width: 300px
-	height: 300px
-	border-bottom: 3px solid #333
-	overflow: hidden
-	background: #ccc
-	transition: 0.4s all
-	.icon
-		position: absolute
-		width: 70px
-		height: 70px
-		line-height: 70px
-		right: 50%
-		margin-right: -35px
-		font-size: 64px
-		text-align: center
-		transform: translate3d(0, 0, 0)
-		backface-visibility: hidden
-		transition: 0.6s all cubic-bezier(0.5,-0.5,0.5,1.5) 
-		&.off
-			top: 50%
-			margin-top: -35px
-			text-shadow: 0px -1px 1px #000, 0 1px 0px #eee
-		&.on
-			top: -20%
-			margin-top: -35px
-			color: #ddd
-			text-shadow: 0px -1px 2px #333, 0 1px 1px #fff
+h2 a.brand
+	font-weight: normal
+	font-family: $LavanR
+	font-size: 62px
+	line-height: 124px
+	color: #666
+	transition: all 0.4s linear
 	&:hover
-		background: $purple
-		& > .icon.off
-			top: 120%
-		& > .icon.on
-			top: 50%
-			margin-top: -35px
-	.upper-header
-		line-height: 40px
-		display: block
-		background: #333
-		color: #ddd
-		position: absolute
-		top: 40px
-		right: 0px
-		padding: 0 13px
-
-.engage
-	.social, .newsletter, .posts-recent
-		border-bottom: 3px solid #333
-	.social, .newsletter
-		height: 100px
-	.posts-recent
-		height: 380px
-	.upper-header
-		line-height: 26px
-		font-size: 32px
-
-.list-o-boxes
-	list-style: none
-	width: 126px
-	margin: auto
-	display: block
-	li
-		float: left
-		width: 36px
-		height: 36px
-		padding: 2px
-		position: relative
-		top: 0
-		transform: translate3d(0, 0, 0)
-		backface-visibility: hidden
-		transition: 0.2s all ease-in-out
-		& + li
-			margin-left: 9px
-		&:hover
-			top: -6px
-.newsletter
-	form
-		width: 280px
-		margin: auto
-	input
-		height: 37px
-	button
-		height: 37px
-
-.post	
-	height: 100px
-	border-top: 1px dashed #333
-	margin-bottom: 10px
-	img
-		height: 86px
-		width: 86px
-		margin: 9px 18px 0 0
-		float: left
-	.post-container
-		margin-top: 9px
-		padding-right: 9px
-		width: 196px
-		height: 90px
-		overflow: hidden
-		float: left
-	.post-title
-		line-height: 13px
-		margin-bottom: 4px	
-		width: 187px
-		height: 15px
-		font-size: 13px
-		white-space: nowrap
-		overflow: hidden
-		text-overflow: ellipsis
-	.post-excerpt
-
-.product-index-container
-	position: relative
-	overflow: hidden
-	width: 300px
-	height: 300px
-	list-style: none
-	&:hover > .product-index-details.top
-		top: 0px
-		transform: translate3d(0, 0, 0)
-		backface-visibility: hidden
-		transition: 0.5s 0.4s all cubic-bezier(0.6,-0.7,0.5,1.0) 
-	&:hover > .product-index-details.bottom
-		bottom: 0px
-		transform: translate3d(0, 0, 0)
-		backface-visibility: hidden
-		transition: 0.5s 0.4s all cubic-bezier(0.6,-0.7,0.5,1.0) 
-	&:hover > .product-index-img-container
-		height: 0px
-		margin-top: 150px
-		transform: translate3d(0, 0, 0)
-		backface-visibility: hidden
-		transition: 0.5s 0.4s all cubic-bezier(0.6,-0.7,0.5,1.0) 
-	&:hover > .product-index-img-container > .product-index-img
-		top: -150px
-		transform: translate3d(0, 0, 0)
-		backface-visibility: hidden
-		transition: 0.5s 0.4s all cubic-bezier(0.6,-0.7,0.5,1.0) 
-	//&:hover > .product-index-img
-	//	opacity: 0
-.product-index-link
-	text-decoration: none
-	&:hover
-		text-decoration: none
-.product-index-img-container
-	overflow: hidden
-	width: 300px
-	height: 250px
-	margin-top: 0px
-	position: relative
-	transform: translate3d(0, 0, 0)
-	backface-visibility: hidden
-	transition: 0.5s 0.4s all cubic-bezier(0.6,0,0.5,1.7) 
-.product-index-img
-	position: absolute
-	top: 0
-	left: 0
-	z-index: 1
-	transform: translate3d(0, 0, 0)
-	backface-visibility: hidden
-	transition: 0.5s 0.4s all cubic-bezier(0.6,0,0.5,1.7) 
-	//opacity: 1
-.product-index-img-blur
-	position: absolute
-	top: 0
-	left: 0
-	z-index: -1
-.product-index-details
-	width: 300px
-	height: 150px
-	background: rgba(122,43,182,0.3)
-	position: absolute
-	transform: translate3d(0, 0, 0)
-	backface-visibility: hidden
-	transition: 0.5s 0.4s all cubic-bezier(0.6,0,0.5,1.7) 
-	z-index: 2
-	&.bottom
-		bottom: -100px
-	&.top
-		top: -150px
-		padding-top: 50px
-		button
-			height: 32px
-			margin: 9px auto 0
-			display: block
-	p
-		font-size: 24px
-		line-height: 50px
-		text-align: center
-		color: #eee
-		text-shadow: 0px 1px 5px #000
-		margin-bottom: 0
-
-.new-product
-	padding-bottom: 9px
-	border-bottom: 3px solid #333
-
-.account-overview
-	padding-top: 20px
-	h3
-		font-size: 24px
-		text-align: center
-		font-family: $EdmondB
-		margin: 0px 0px 15px
-	& > div
-		padding: 20px
-		background: $grayLighter
-		margin-bottom: 20px
-
+		color: #aa00aa !important

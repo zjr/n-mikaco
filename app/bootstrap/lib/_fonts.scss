@@ -12,14 +12,15 @@ $Mission : "MissionScriptRegular";
 $Tommaso : "TommasoRegular";
 $Vevey   : "VeveyRegular";
 $Wisdom  : "WisdomScriptAIRegular";
+$League  : "LeagueGothic";
 
 @font-face {
     font-family: 'EntypoRegular';
-    src: url('/fonts/entypo-webfont.eot');
-    src: url('/fonts/entypo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/entypo-webfont.woff') format('woff'),
-         url('/fonts/entypo-webfont.ttf') format('truetype'),
-         url('/fonts/entypo-webfont.svg#EntypoRegular') format('svg');
+    src: url('../../fonts/entypo-webfont.eot');
+    src: url('../../fonts/entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/entypo-webfont.woff') format('woff'),
+         url('../../fonts/entypo-webfont.ttf') format('truetype'),
+         url('../../fonts/entypo-webfont.svg#EntypoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -27,11 +28,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'ValentinaRegular';
-    src: url('/fonts/valentina-regular.eot');
-    src: url('/fonts/valentina-regular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/valentina-regular.woff') format('woff'),
-         url('/fonts/valentina-regular.ttf') format('truetype'),
-         url('/fonts/valentina-regular.svg#ValentinaRegular') format('svg');
+    src: url('../../fonts/valentina-regular.eot');
+    src: url('../../fonts/valentina-regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/valentina-regular.woff') format('woff'),
+         url('../../fonts/valentina-regular.ttf') format('truetype'),
+         url('../../fonts/valentina-regular.svg#ValentinaRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -39,11 +40,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'EdmondsansBold';
-    src: url('/fonts/edmondsans-bold.eot');
-    src: url('/fonts/edmondsans-bold.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/edmondsans-bold.woff') format('woff'),
-         url('/fonts/edmondsans-bold.ttf') format('truetype'),
-         url('/fonts/edmondsans-bold.svg#EdmondsansBoldRegular') format('svg');
+    src: url('../../fonts/edmondsans-bold.eot');
+    src: url('../../fonts/edmondsans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/edmondsans-bold.woff') format('woff'),
+         url('../../fonts/edmondsans-bold.ttf') format('truetype'),
+         url('../../fonts/edmondsans-bold.svg#EdmondsansBoldRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -51,11 +52,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'EdmondsansMedium';
-    src: url('/fonts/edmondsans-medium.eot');
-    src: url('/fonts/edmondsans-medium.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/edmondsans-medium.woff') format('woff'),
-         url('/fonts/edmondsans-medium.ttf') format('truetype'),
-         url('/fonts/edmondsans-medium.svg#EdmondsansMediumRegular') format('svg');
+    src: url('../../fonts/edmondsans-medium.eot');
+    src: url('../../fonts/edmondsans-medium.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/edmondsans-medium.woff') format('woff'),
+         url('../../fonts/edmondsans-medium.ttf') format('truetype'),
+         url('../../fonts/edmondsans-medium.svg#EdmondsansMediumRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -63,11 +64,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'EdmondsansRegular';
-    src: url('/fonts/edmondsans-regular.eot');
-    src: url('/fonts/edmondsans-regular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/edmondsans-regular.woff') format('woff'),
-         url('/fonts/edmondsans-regular.ttf') format('truetype'),
-         url('/fonts/edmondsans-regular.svg#EdmondsansRegularRegular') format('svg');
+    src: url('../../fonts/edmondsans-regular.eot');
+    src: url('../../fonts/edmondsans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/edmondsans-regular.woff') format('woff'),
+         url('../../fonts/edmondsans-regular.ttf') format('truetype'),
+         url('../../fonts/edmondsans-regular.svg#EdmondsansRegularRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -75,11 +76,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'LavanderiaDelicate';
-    src: url('/fonts/lavanderia_delicate.eot');
-    src: url('/fonts/lavanderia_delicate.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/lavanderia_delicate.woff') format('woff'),
-         url('/fonts/lavanderia_delicate.ttf') format('truetype'),
-         url('/fonts/lavanderia_delicate.svg#LavanderiaDelicateDelicate') format('svg');
+    src: url('../../fonts/lavanderia_delicate.eot');
+    src: url('../../fonts/lavanderia_delicate.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lavanderia_delicate.woff') format('woff'),
+         url('../../fonts/lavanderia_delicate.ttf') format('truetype'),
+         url('../../fonts/lavanderia_delicate.svg#LavanderiaDelicateDelicate') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -87,11 +88,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'LavanderiaRegular';
-    src: url('/fonts/lavanderia_regular.eot');
-    src: url('/fonts/lavanderia_regular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/lavanderia_regular.woff') format('woff'),
-         url('/fonts/lavanderia_regular.ttf') format('truetype'),
-         url('/fonts/lavanderia_regular.svg#LavanderiaRegularRegular') format('svg');
+    src: url('../../fonts/lavanderia_regular.eot');
+    src: url('../../fonts/lavanderia_regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lavanderia_regular.woff') format('woff'),
+         url('../../fonts/lavanderia_regular.ttf') format('truetype'),
+         url('../../fonts/lavanderia_regular.svg#LavanderiaRegularRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -99,11 +100,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'LavanderiaSturdy';
-    src: url('/fonts/lavanderia_sturdy.eot');
-    src: url('/fonts/lavanderia_sturdy.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/lavanderia_sturdy.woff') format('woff'),
-         url('/fonts/lavanderia_sturdy.ttf') format('truetype'),
-         url('/fonts/lavanderia_sturdy.svg#LavanderiaSturdySturdy') format('svg');
+    src: url('../../fonts/lavanderia_sturdy.eot');
+    src: url('../../fonts/lavanderia_sturdy.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lavanderia_sturdy.woff') format('woff'),
+         url('../../fonts/lavanderia_sturdy.ttf') format('truetype'),
+         url('../../fonts/lavanderia_sturdy.svg#LavanderiaSturdySturdy') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -111,11 +112,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'MissionScriptRegular';
-    src: url('/fonts/mission-script.eot');
-    src: url('/fonts/mission-script.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/mission-script.woff') format('woff'),
-         url('/fonts/mission-script.ttf') format('truetype'),
-         url('/fonts/mission-script.svg#MissionScriptRegular') format('svg');
+    src: url('../../fonts/mission-script.eot');
+    src: url('../../fonts/mission-script.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/mission-script.woff') format('woff'),
+         url('../../fonts/mission-script.ttf') format('truetype'),
+         url('../../fonts/mission-script.svg#MissionScriptRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -123,11 +124,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'TommasoRegular';
-    src: url('/fonts/tommaso.eot');
-    src: url('/fonts/tommaso.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/tommaso.woff') format('woff'),
-         url('/fonts/tommaso.ttf') format('truetype'),
-         url('/fonts/tommaso.svg#TommasoRegular') format('svg');
+    src: url('../../fonts/tommaso.eot');
+    src: url('../../fonts/tommaso.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/tommaso.woff') format('woff'),
+         url('../../fonts/tommaso.ttf') format('truetype'),
+         url('../../fonts/tommaso.svg#TommasoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -135,11 +136,11 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'VeveyRegular';
-    src: url('/fonts/vevey.eot');
-    src: url('/fonts/vevey.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/vevey.woff') format('woff'),
-         url('/fonts/vevey.ttf') format('truetype'),
-         url('/fonts/vevey.svg#VeveyRegular') format('svg');
+    src: url('../../fonts/vevey.eot');
+    src: url('../../fonts/vevey.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/vevey.woff') format('woff'),
+         url('../../fonts/vevey.ttf') format('truetype'),
+         url('../../fonts/vevey.svg#VeveyRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -147,11 +148,23 @@ $Wisdom  : "WisdomScriptAIRegular";
 
 @font-face {
     font-family: 'WisdomScriptAIRegular';
-    src: url('/fonts/wisdom_script.eot');
-    src: url('/fonts/wisdom_script.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/wisdom_script.woff') format('woff'),
-         url('/fonts/wisdom_script.ttf') format('truetype'),
-         url('/fonts/wisdom_script.svg#WisdomScriptAIRegular') format('svg');
+    src: url('../../fonts/wisdom_script.eot');
+    src: url('../../fonts/wisdom_script.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/wisdom_script.woff') format('woff'),
+         url('../../fonts/wisdom_script.ttf') format('truetype'),
+         url('../../fonts/wisdom_script.svg#WisdomScriptAIRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../../fonts/League_Gothic-webfont.eot');
+    src: url('../../fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/League_Gothic-webfont.woff') format('woff'),
+         url('../../fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('../../fonts/League_Gothic-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
