@@ -14,11 +14,14 @@ nav#taxonomies .taxonomy-root,
 // Change the bottom borders
 nav #main-nav-bar,
 nav#taxonomies .taxonomy-root,
-nav #main-nav-bar li#link-to-cart:hover .amount,
 nav #main-nav-bar li#link-to-cart a .amount,
+nav #main-nav-bar li#link-to-cart:hover .amount,
 nav #main-nav-bar li#link-to-cart a:hover .amount,
 #sidebar_products_search .filter-title,
+#product-description .product-title,
+table tbody tr, table tfoot tr,
 ul#products li a.info,
+#product-properties,
 footer#footer,
 #breadcrumbs
 	border-color: #000
@@ -52,4 +55,14 @@ h2 a.brand
 	color: #666
 	transition: all 0.4s linear
 	&:hover
-		color: #aa00aa !important
+		color: darken(#b57edc, 5%) !important
+
+table tbody tr.alt,
+table tbody tr.odd, 
+table tfoot tr.alt, 
+table tfoot tr.odd
+	background-color: lighten(#b57edc, 10%)
+	color: #333
+
+::selection
+	background: #d6cadd
