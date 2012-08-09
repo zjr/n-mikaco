@@ -5,6 +5,43 @@ h1, h2, h3, h4, h5, h6
 	font-family: $League
 	font-weight: normal
 
+span.price,
+#checkout-summary table tr[data-hook="item_total"] td:last-child strong,
+#checkout-summary table #summary-order-total, #order_details td.price span,
+#order_details td.total span, #order_summary td.price span, #order_summary td.total span,
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"],
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_total"], 
+div[data-hook="inside_cart_form"] #subtotal span.order-total
+	font-weight: normal
+
+h1
+	font-size: 34px
+	line-height: 27px
+	padding-bottom: 10px
+
+#checkout-summary h3
+	font-size: 24px
+
+h4, h5
+	font-size: 24px
+
+h6
+	font-size: 20px
+	line-height: 32px
+
+[data-hook="product_show"] h6
+	font-size: 18px
+	line-height: 28px
+
+.search-results-title
+	font-size: 24px
+	line-height: 28px
+
+#product-description .product-title
+	font-size: 32px
+	line-height: 29px
+	padding-bottom: 10px
+
 nav#taxonomies .taxonomy-root,
 #sidebar_products_search .filter-title
 	font-weight: normal
@@ -12,6 +49,7 @@ nav#taxonomies .taxonomy-root,
 	line-height: 28px
 
 // Change the bottom borders
+hr,
 nav #main-nav-bar,
 nav#taxonomies .taxonomy-root,
 nav #main-nav-bar li#link-to-cart a .amount,
@@ -19,15 +57,69 @@ nav #main-nav-bar li#link-to-cart:hover .amount,
 nav #main-nav-bar li#link-to-cart a:hover .amount,
 #sidebar_products_search .filter-title,
 #product-description .product-title,
-table tbody tr, table tfoot tr,
 ul#products li a.info,
 #product-properties,
 footer#footer,
-#breadcrumbs
+#breadcrumbs,
+#user-info,
+#payment,
+#billing,
+#shipping,
+#order_summary,
+#order_details,
+table tbody tr, 
+table tfoot tr,
+#shipping_method,
+#checkout-summary,
+#checkout-summary h3,
+#order_details .steps-data h6, 
+#order_summary .steps-data h6,
+#order_details table tfoot#order-total tr,
+#order_summary table tfoot#order-total tr,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+select,
+.search-results-title
 	border-color: #000
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"]
+	background: #555
+
+#user-info
+	margin-top: 10px
 
 #breadcrumbs
 	margin-top: 4px
+
+table thead
+	background: darken(#b57edc, 5%)
+	color: #333
 
 nav #main-nav-bar li#link-to-cart
 	margin-top: 1px
@@ -64,5 +156,12 @@ table tfoot tr.odd
 	background-color: lighten(#b57edc, 10%)
 	color: #333
 
+.progress-steps li.completed-first,
+.progress-steps li.completed
+	background-color: #666
+
 ::selection
 	background: #d6cadd
+
+dl dd
+	margin-left: 0px
