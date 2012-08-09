@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
@@ -50,4 +51,7 @@ end
  
 group :development do
   gem 'capistrano'
+  gem 'guard'
+  gem 'libnotify'
+  gem 'guard-livereload'
 end

@@ -126,8 +126,13 @@ nav #main-nav-bar li#link-to-cart a .amount,
 nav #main-nav-bar li#link-to-cart a:hover .amount,
 #sidebar_products_search .filter-title,
 ul#products li a.info,
-footer#footer {
+footer#footer,
+#breadcrumbs {
   border-color: black;
+}
+
+#breadcrumbs {
+  margin-top: 4px;
 }
 
 nav #main-nav-bar li#link-to-cart {
