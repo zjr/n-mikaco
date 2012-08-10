@@ -42,6 +42,8 @@ gem 'spree_usa_epay'
 gem 'spree_skrill'
 gem 'spree_static_content', :git => 'git@github.com:spree/spree_static_content.git', :branch => '1-1-stable'
 
+gem 'spree_variant_options', '0.4.1'
+
 group :production do
   gem 'unicorn'
   gem 'mysql2'
