@@ -284,3 +284,7 @@ table tfoot tr.odd {
 dl dd {
   margin-left: 0px;
 }
+
+#product-images #thumbnails {
+  display: none;
+}
